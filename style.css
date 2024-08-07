@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+.box {
+    background: rgb(63,102,0);
+background: linear-gradient(225deg, rgba(63,102,0,1) 18%, rgba(64,0,133,1) 48%, rgba(190,0,0,1) 81%);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.innerbox {
+   
+    width: 370px;
+    height: 480px;
+    background-image: url(web.jpg);
+}
+h1 {
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: rgb(245, 159, 1);
+}
+p {
+    text-align: center;
+    color: rgb(202, 174, 174);
+    
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.bars { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 50px;
+    
+}
+.username input {
+    background-color: rgb(172, 172, 214) ;
+    border-radius: 0px;
+    width: 200px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 8px 4px rgb(44, 48, 40);
+}
+   .password input {
+    background-color: rgb(172, 172, 214) ;
+    border-radius: 0px;
+    width: 200px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 8px 4px rgb(44, 48, 40);
+   }
+   .btn button {
+    width: 230px;
+    padding: 15px;
+    background-color: rgba(199, 198, 161, 0.616);
+    border: none ;
+    border-radius: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    cursor: pointer;
+    background: rgb(230, 255, 246);
+background: linear-gradient(90deg, rgb(123, 133, 129) 21%, rgba(148,148,235,1) 48%, rgb(29, 58, 21) 84%);
+
+    
+   }
+   .btn2 button {
+    width: 130px;
+    height: 50px;
+    font-weight: bold;
+    margin-top: -10px;
+    background-color: rgb(113, 165, 165);
+    border-color:  rgb(133, 133, 170);
+    cursor: pointer;
+    
+    border: none;
+}
+   .btn1 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+   }
+   .btn3 button {
+    width: 130px;
+    height: 50px;
+    font-weight: bold;
+    margin-top: -10px;
+background-color: rgb(113, 165, 165);
+border-color:  rgb(133, 133, 170);
+border: none;
+cursor: pointer;
+
+   }
+   @media screen and (min-width: 900px) {
+    .box {
+        background-color: lightgreen; }
+    }
